@@ -24,7 +24,7 @@ if not os.path.isfile(imageName):
     sys.exit(1)
 
 # Read image from file
-image = cv2.imread(imageName, 1)
+image = cv2.imread("mandrill.jpg", 1)
 
 # ignore if image is not array.
 if not (type(image) is np.ndarray):
